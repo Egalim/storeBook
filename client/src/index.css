@@ -1,0 +1,77 @@
+*:where(:not(html, iframe, canvas, img, svg, video, audio, select, input):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+a, button {
+  cursor: pointer;
+}
+a:hover {
+  color: #4c4c4c;
+}
+
+html, body {
+  margin: 0;
+  background-color: #F9EFFF;
+  color: #3D363C;
+  font-size: 16px;
+  font-family: Inter;
+  min-width: 320px;
+  min-height: 100vh;
+}
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.container{
+  width: 90%;
+  margin-inline: auto;
+  padding: 3vh 5vh 0;
+}
+.content{
+  margin-top: 60px;
+}
+
+h1{
+  font-size: 22px;
+}
+h2{
+  font-size: 20px;
+}
+h3{
+  font-size: 18px;
+}
+.txt_bold{
+  font-weight: 700;
+}
+.txt_sbold{
+  font-weight: 600;
+}
+.txt_white{
+  color: #fff;
+}
+.txt_grey{
+  color: #7F7F7F;
+}
+.row_txt{
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+}
+.btn_border{
+  border: 1px solid #3d363c;
+  border-radius: 20px;
+  padding: 20px 40px;
+  font-weight: 600;
+  max-width: 150px;
+  text-align: center;
+}
+.btn_black{
+  border-radius: 20px;
+  padding: 20px 40px;
+  font-weight: 600;
+  color: #fff;
+  max-width: 200px;
+  text-align: center;
+  background-color:#3d363c;
+}

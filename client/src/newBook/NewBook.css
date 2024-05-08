@@ -1,0 +1,29 @@
+.container_new{
+    border: 1px solid #3d363c;
+    border-radius: 20px;
+    padding: 100px 5vw;
+    grid-template-columns: 4fr 2fr;
+    display: grid;
+    grid-gap: 15px;
+}
+.frm_newbook{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 5vw;
+}
+textarea {
+    resize: none;
+    min-width: 300px
+}
+.input_grey{
+    background-color: #EBE2F1;
+    border-radius: 20px;
+    min-height: 100px;
+    border: none;
+    color: #3d363c;
+}
+.form_book{
+    display: grid;
+    flex-direction: column;
+    gap: "30px"
+    }

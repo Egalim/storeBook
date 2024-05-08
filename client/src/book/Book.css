@@ -1,0 +1,17 @@
+.container_book{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    gap: 5vw;
+}
+.container_book img{
+    aspect-ratio: 3/4;
+    width: 90%;
+    border-radius: 20px;
+    max-height: 500px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}

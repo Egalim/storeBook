@@ -1,0 +1,45 @@
+.container_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.card {
+    border: 1px solid #3d363c;
+    border-radius: 20px;
+    padding: 50px 5vw;
+    grid-template-columns: 4fr 2fr;
+    display: grid;
+    gap: 15px;
+}
+
+.info_book {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card img {
+    aspect-ratio: 3/4;
+    overflow: hidden;
+    width: 80%;
+    min-width: 300px;
+    max-height: 300px;
+    border-radius: 20px;
+}
+
+.hidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+@media (max-width: 800px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}

@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.menu_token{
+    gap: 25px;
+    display: flex;
+}
+.menu_token a.active{
+    color: rgb(129, 1, 1);
+}

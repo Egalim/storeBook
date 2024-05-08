@@ -1,0 +1,25 @@
+.container_entry{
+    border: 1px solid #3d363c;
+    border-radius: 20px;
+    padding: 50px 5vw;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    text-align: center;
+    align-items: center;
+}
+input{
+    background-color: #3d363c;
+    border-radius: 20px;
+    width: 80%;
+    padding: 25px 80px;
+    color: #fff;
+}
